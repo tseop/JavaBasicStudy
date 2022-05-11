@@ -3,7 +3,7 @@ package com.study.godofjava.chapter07;
 public class ManageHeight {
 	public static void main(String[] args) {
 		ManageHeight manage = new ManageHeight();
-		manage.printAverage(manage);
+		manage.printHeight(10, manage);
 
 	}
 
@@ -26,7 +26,7 @@ public class ManageHeight {
 			}
 
 		} else {
-			System.out.println("현재 편성되어 있는 반은 5반까지 입니다.");
+			System.out.println("현재 편성되어 있는 반은 " + manage.getHeights().length + "반까지 입니다.");
 		}
 	}
 
