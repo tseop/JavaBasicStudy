@@ -8,7 +8,7 @@ public class UserAnnotationCheck {
 		sample.checkAnnotation(UserAnnotationSample.class);
 	}
 
-	public void checkAnnotation(Class useClass) {
+	public void checkAnnotation(Class<UserAnnotationSample> useClass) {
 		Method[] methods = useClass.getDeclaredMethods();
 		for (Method temp : methods) {
 
