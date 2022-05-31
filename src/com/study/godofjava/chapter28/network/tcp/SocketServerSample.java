@@ -1,4 +1,4 @@
-package com.study.godofjava.chapter28.network;
+package com.study.godofjava.chapter28.network.tcp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
